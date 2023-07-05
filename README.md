@@ -9,16 +9,14 @@
 
 The code in this repository represents the result of the news-evaluator application project from the Udacity Front Ent
 Web
-Developer nanodegree. The task is to create an asynchronous web app that uses the MeaningCloud API and
-individual user input data to rate a website's content with Natural
-Language Processing (NLP) making a call to MeaningCloud's API. In this project, node.js, webpack loaders and plugins as
-well as Jest are used.
+Developer nanodegree. The task is to build a web tool that allows users to run Natural Language Processing (NLP) on
+articles or blogs found on other websites. To run NLP, the MeaningCloud API is used.
 
 ## Setting up the application
 
-### Clone Git Repository
+### Clone git repository
 
-Open your terminal and move to the directory / folder where you want to store the files:
+Open the terminal and move to the directory where you want to store the files:
 
 ```
 cd <path to your project folder>
@@ -30,14 +28,15 @@ Clone the project from this git repository:
 git clone <Github-Repository-URL>
 ```
 
-### Install Dependencies
+### Install dependencies
 
 Install the dependencies with Node Package Manager.
 
 ```
 npm install
 ```
-This project has following dependencies:
+
+This project has the following dependencies:
 
 ```
 @babel/core
@@ -80,7 +79,7 @@ API_KEY=****************************
 
 ### Start express server and run the program
 
-This project has a *Test*, *Development*, and *Production* mode.
+This project has a *test*, *development* and *production* mode.
 
 To run the *unit tests*, type in the following command:
 
@@ -106,6 +105,6 @@ To start the *express server*, type in the following command:
 npm start
 ```
 
-### Open the Web Application
+### Open the web application
 
 Open your web browser at http://localhost:8081/
