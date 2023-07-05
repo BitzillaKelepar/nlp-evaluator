@@ -1,0 +1,113 @@
+/**********/
+/*  TAGS  */
+/**********/
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  flex: 2;
+  background: #f3f3f3;
+}
+
+button {
+  padding: 5px 20px;
+  margin: 25px 0 0 0;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  
+  &:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px 5px rgba(1, 195, 141, 0.55);
+    -moz-box-shadow: 0 0 10px 5px rgba(1, 195, 141, 0.55);
+    box-shadow: 0 0 10px 5px rgba(1, 195, 141, 0.55);
+  }
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/***********/
+/* CLASSES */
+/***********/
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: #01c38d;
+  font-size: 26px;
+  margin: 30px 0 30px 0;
+}
+
+.form-results {
+  background: #fff;
+  border: 1px solid #545454;
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-height: 200px;
+  max-width: 445px;
+}
+
+/***********/
+/*   IDs   */
+/***********/
+
+#app {
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #545454;
+  max-width: 445px;
+  max-height: 460px;
+  border-radius: 5px;
+  padding: 40px 40px 40px 40px;
+}
+
+#entryHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#results, #polarity, #agreement, #subjectivity, #confidence, #irony {
+  margin: 4px 0 4px 0;
+}
+
+#text {
+  margin-top: 25px;
+}
